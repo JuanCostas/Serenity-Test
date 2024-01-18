@@ -23,8 +23,6 @@ class WhenSearchingForTerms {
     @Test
     @DisplayName("Should be able to search for Microsoft things")
     void searchForRedThings() {
-        boolean match;
-        Ensure ensure;
         actor.attemptsTo(
                 NavigateTo.theSearchHomePage(),
                 LookForInformation.about("Microsoft"),
